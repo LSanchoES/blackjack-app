@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#mesa{
+    height: 100vh;
+    background-color: #2f4f30 ;
+}
+
+
+.btn:disabled{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    color: rgb(65, 60, 60);
+    pointer-events: none;
+}
+.carta{
+    position: relative;
+    left: 100px;
+    width: 150px;
+    margin-left: -75px;
+}
+
+#computadora-cartas , #jugador-cartas{
+    height: 224px;
+}
+
+.titulitis{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 0px 3px  #333333;
+    margin-left: 30px;
+}
